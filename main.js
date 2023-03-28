@@ -50,7 +50,7 @@ function addStar(){
 Array(200).fill().forEach(addStar)
 
 
-const spaceTexture = new THREE.TextureLoader().load('/public/space.jpg');
+const spaceTexture = new THREE.TextureLoader().load('/space.jpg');
 scene.background = spaceTexture; 
 
 
@@ -83,7 +83,7 @@ function animate(){
 
 animate()
 
-const meTexture = new THREE.TextureLoader().load('/public/me.jpeg');
+const meTexture = new THREE.TextureLoader().load('/me.jpeg');
 
 const me = new THREE.Mesh(
   new THREE.BoxGeometry(3,3,3),
